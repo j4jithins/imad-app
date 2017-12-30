@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles = {
-    var articleOne : {
+    var articleOne: {
         title: 'Article One | Jithin Shaji',
         heading: 'Article One',
         date: 'December 29, 2017',
@@ -29,7 +29,7 @@ var articles = {
         date: 'December 31, 2017',
         content: ` 
                 <p>This is the content of my Third article.</p>`
-    }    
+    }
 };
 function createTemplate(data){
     var title = data.title;
