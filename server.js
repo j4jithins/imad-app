@@ -76,6 +76,8 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:articleName', function(req, res){
+    //articleName == articleOne
+    //articles[articleName] == () content object for article-one
     res.send(createTemplate(articles[articleName]));
     var articleName = req.params.articleName;
    });
