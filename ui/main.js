@@ -18,6 +18,7 @@ button.onclick = function (){
   //Render the variable in the correct span
   
   //make the request
-  request.
+  request.open('GET','http://jithinshaji1298.imad.hasura-app.io/counter',true);
+  request.send(null);
   
 };
