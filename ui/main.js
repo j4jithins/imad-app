@@ -5,7 +5,7 @@ button.onClick = function (){
   //make request to counter end point
   
   //Capture the response and store it in a variable
-  
+  console.log('executed');
   //Render the variable in the correct span
   counter = counter + 1;
   alert('counter');
