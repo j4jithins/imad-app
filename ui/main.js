@@ -2,7 +2,7 @@ var button = document.getElementById('counter');
 
 button.onclick = function (){
        
-  //make request to counter end point
+  //create request object
   var request = new XMLHttpRequest();
   //Capture the response and store it in a variable
   request.onreadystatechange = function (){
@@ -13,9 +13,11 @@ button.onclick = function (){
             var span = document.getElementById('count');
             span.innerHTML = counter.toString();
         }
-    };
+    }
   };
   //Render the variable in the correct span
-  counter = counter + 1;
+  
+  //make the request
+  request.
   
 };
